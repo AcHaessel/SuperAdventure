@@ -21,6 +21,7 @@ namespace Engine
             this.Description = description;
             this.RewardExperiencePoints = rewardExperiencePoints;
             this.RewardGold = rewardGold;
+
         }
     }
 }
