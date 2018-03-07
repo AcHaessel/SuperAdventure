@@ -14,9 +14,11 @@ namespace SuperAdventure
     public partial class SuperAdventure : Form
     {
         private Player _player;
+        
         public SuperAdventure()
         {
             InitializeComponent();
+            _player = new Player(10, 10, 20, 0, 1);
         }
 
     }
