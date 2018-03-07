@@ -16,11 +16,11 @@ namespace Engine
 
         public Monster(int id, string name, int maximumDamage, int rewardExperiencePoints, int rewardGold, int currentHitPoints, int maximumHitPoints) : base(currentHitPoints, maximumHitPoints)
         {
-            this.ID = id;
-            this.Name = name;
-            this.MaximumDamage = maximumDamage;
-            this.RewardExperiencePoints = rewardExperiencePoints;
-            this.RewardGold = rewardGold;
+            ID = id;
+            Name = name;
+            MaximumDamage = maximumDamage;
+            RewardExperiencePoints = rewardExperiencePoints;
+            RewardGold = rewardGold;
         }
     }
 }

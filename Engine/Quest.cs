@@ -16,11 +16,11 @@ namespace Engine
         public string RewardItem { get; set; }
         public Quest(int id, string name, string description, int rewardExperiencePoints, int rewardGold)
         {
-            this.ID = id;
-            this.Name = name;
-            this.Description = description;
-            this.RewardExperiencePoints = rewardExperiencePoints;
-            this.RewardGold = rewardGold;
+            ID = id;
+            Name = name;
+            Description = description;
+            RewardExperiencePoints = rewardExperiencePoints;
+            RewardGold = rewardGold;
 
         }
     }

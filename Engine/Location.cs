@@ -23,12 +23,12 @@ namespace Engine
             Quest questAvailableHere = null,
             Monster monsterLivingHere = null)
         {
-            this.ID = id;
-            this.Name = name;
-            this.Description = description;
-            this.ItemRequiredToEnter = itemRequiredToEnter;
-            this.QuestAvailableHere = questAvailableHere;
-            this.MonsterLivingHere = monsterLivingHere;
+            ID = id;
+            Name = name;
+            Description = description;
+            ItemRequiredToEnter = itemRequiredToEnter;
+            QuestAvailableHere = questAvailableHere;
+            MonsterLivingHere = monsterLivingHere;
         }
     }
 }

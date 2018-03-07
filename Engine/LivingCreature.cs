@@ -12,8 +12,8 @@ namespace Engine
         public int MaximumHitPoints { get; set; }
         public LivingCreature(int currentHitPoints, int maximumHitPoints)
         {
-            this.CurrentHitPoints = currentHitPoints;
-            this.MaximumHitPoints = maximumHitPoints;
+            CurrentHitPoints = currentHitPoints;
+            MaximumHitPoints = maximumHitPoints;
         }
     }
 }
